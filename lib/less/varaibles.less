@@ -1,0 +1,74 @@
+//@{path}: '../img';
+
+// Colors
+@shadowColor:      #a1a1a1;
+@sky:                   #e1ecf5;
+@skyDark:            #1479b9;
+@blueLight:           #ddeff5;
+@blueDark:           #437db3;
+@redLight:            #c74a44;
+@red:                   #d91c1c;
+@redDark:            #af302a;
+
+@black: #000000;
+@white: #ffffff;
+@grayDark: #333333;
+@gray: #646464;
+@grayLight: #f1f1f1;
+@red: #c23329;
+@yellow: #f5b643;
+@orange: #ff821e;
+@green:#53a22d;
+@greenLight:#64cf18;
+@blue: #0070ed;
+
+
+// Scaffolding
+@bodyBackground: @white;
+@textColor: @black;
+
+// Links
+@linkColor: @blue;
+@linkColorHover: darken(@blue, 15%);
+
+// Typography
+@import url(http://fonts.googleapis.com/css?family=Marck+Script|PT+Sans&subset=latin,cyrillic);
+
+@PT: 'PT Sans', sans-serif;
+@MarckScript: 'Marck Script', cursive;
+@Verdana: Verdana, Geneva, sans-serif;
+
+@FontSize: 16px;
+@FontFamily: @PT;
+@LineHeight: 21px;
+
+@headingsFontFamily: inherit; 
+@headingsFontWeight: bold;
+@headingsColor: inherit;
+
+
+
+//Custom styles
+.text-left {
+  text-align:left;
+}
+.text-center {
+  text-align:center;
+}
+.text-right {
+  text-align:right;
+}
+.left {
+  float:left;
+}
+.right {
+  float:right !important;
+}
+.hr{
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom:20px;
+}
+.big-hr{
+  border-bottom: 5px solid @grayDark;
+  margin-bottom:20px;
+}
